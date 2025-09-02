@@ -8,6 +8,10 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Evita el flash de modales antes de que Alpine/Livewire inicien -->
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
 </head>
 <body class="antialiased bg-gray-800">
 
